@@ -491,7 +491,7 @@ function wrapper() {
   window.plugin.wetterberichtportals.city.hamburg = function() {
     return {
       'areas': [ // select area(s) you want to see
-        'PDR', 'STP', 'MIC', 'NIK', 'DTP'
+        'PDR', 'STP', 'MIC', 'NIK', 'DTP','TRU'
       ],
       'STP': {
         'portals': [
@@ -564,6 +564,18 @@ function wrapper() {
 			'9b7fb9e466444fbaab750f47e2aad36a.12', // Art Museum
 			'ff6190024ff1494f99b143ffe460ec47.12'  // Deichtorplatz
 		]           
+      },
+      'TRU': {
+      	'portals': [
+		'e4ad74a12dfd43ed827057b5d4ecf097.11', // Train Station, Barmbek, Hambur
+		'ff53b8c9c4a040b59e982392fa577253.11', // Dampfspeicherlok
+		'736545f71b534ede8ec4a40210d90f8c.11', // Peggys Schwester
+		'9edd4457bc61463e8c800165fdc484e4.12', // 2005 Hamburg
+		'19b2c7a426764f178329038fd89f4245.12', // Barmbek: Museum der Arbeit
+		'7d75feb757304397864d6373682692b3.12', // Trude
+		'3256c41eda744ef6916f84153414ff6a.12', // HH-Barmbek, Museum der Arbeit 
+		'513f7717b27f401ea7face4b6901e855.11'  // Die Träumende / The Dreaming W
+	] 
       }
 //      '': {
 //        'portals': [
