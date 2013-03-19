@@ -1,16 +1,17 @@
-# Wetterbericht (für Berlin)
+# Wetterbericht (für Berlin und Hamburg)
 
 * Fügt der Toolbox einen Link mit dem Text 'wetterbericht' hinzu. Beim Anklicken wird der Wetterbericht für die eingetragenen Areas als Alert und in der Console angezeigt.
 * Die Datei `wetterbericht-portals.user.js` enthält die Listen mit den Areas, die Datei `wetterbericht.user.js` ist das eigendliche Plugin. Funktioniert nur mit beiden Dateien. Ich habe es in zwei Dateien aufgeteilt, damit sich auch jeder seine eigenen Areas anlegen kann.
 * Die weißen Portale sind die gelisteten für die Areas
 * Eine Historie findet ihr hier: [wetterbericht für berlin](https://gist.github.com/dazz/bdcd6b4220563ee1483f)
-* Das Plugin ist in Kooperation von flyingmana(E), cmile(R) und mir(R)(dazs), entstanden. Ich hoffe auf weitere gute Zusammenarbeit!
+* Das Plugin ist in Kooperation von flyingmana(E), cmile(R) und dazs(R), entstanden. Ich hoffe auf weitere gute Zusammenarbeit!
+* Anpassungen für Hamburg wurden von erniehh(E) durchgeführt.
 * viel Spaß und happy AP sammeln :)
 
 ## Install
 
-1. [wetterbericht-portals.user.js](https://github.com/dazz/iitc-plugins/raw/master/wetterbericht/wetterbericht-portals.user.js)
-2. [wetterbericht.user.js](https://github.com/dazz/iitc-plugins/raw/master/wetterbericht/wetterbericht.user.js)
+1. [wetterbericht-portals.user.js](https://github.com/erniehh/iitc-plugins/raw/master/wetterbericht/wetterbericht-portals.user.js)
+2. [wetterbericht.user.js](https://github.com/erniehh/iitc-plugins/raw/master/wetterbericht/wetterbericht.user.js)
 
 ## So sieht's aus
 
@@ -53,7 +54,7 @@ Die Resistance besetzt davon 7 mit einem durchschnittlichen Level von 4.88, was 
 Die Erleuchteten besetzen 31 Portale und haben diese durchschnittlich auf Level 5.12 gebracht. Es würde dir 126.000 AP bringen diese wieder einzureißen, zu deployen und noch einiges mehr wenn du felder baust, also los!﻿
 
 
-## Areas
+## Areas Berlin
 
 * ANH - Anhalter Bahnhof/Tempodrom
 * AVK - Auguste-Viktoria-Klinikum
@@ -74,6 +75,15 @@ Die Erleuchteten besetzen 31 Portale und haben diese durchschnittlich auf Level 
 * TP  - Treptower Park
 * VFH - Volkspark Friedrichshain
 
+
+## Areas Hamburg
+
+* PDR - Platz der Republik
+* STP - Stadtpark
+* MIC - Michel
+* NIK - Nikolaikirche
+* DTP - Deichtorplatz
+* 
 
 ## Faction
 
