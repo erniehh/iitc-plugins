@@ -2,7 +2,7 @@
 // @id             iitc-plugin-wetterbericht@dazz
 // @name           iitc: wetterbericht
 // @version        0.1.2
-// @namespace      https://github.com/breunigs/ingress-intel-total-conversion
+// @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
 // @updateURL      https://github.com/dazz/iitc-plugins/raw/master/wetterbericht/wetterbericht.user.js
 // @downloadURL    https://github.com/dazz/iitc-plugins/raw/master/wetterbericht/wetterbericht.user.js
 // @description    wetterbericht
@@ -18,6 +18,10 @@ function wrapper() {
   // PLUGIN START ////////////////////////////////////////////////////////
   // use own namespace for plugin
   window.plugin.wetterbericht = function() {};
+  
+  // welche stadt soll angezeigt werden
+//  window.plugin.wetterbericht.city = 'berlin';
+  window.plugin.wetterbericht.city = 'hamburg';
 
   window.plugin.wetterbericht.setup = function() {
     window.plugin.wetterbericht.setupCallback();
@@ -35,7 +39,7 @@ function wrapper() {
 
     var p = data.portals;
 
-    var citydata = window.plugin.wetterberichtportals.city['berlin']();
+    var citydata = window.plugin.wetterberichtportals.city[window.plugin.wetterbericht.city]();
     var areas = citydata.areas;
     $.each(areas, function(ind, area) {
       var area_data;
@@ -59,7 +63,7 @@ function wrapper() {
             if (typeof area_data[faction]['portals'][pid] === "undefined") {
               area_data[faction]['portals'][pid] = 1;
               area_data[faction]['sum']   += window.getPortalLevel(d[2]);
-              area_data[faction]['maxAP'] += window.getAttackApGain(d[2]).totalAp;
+              area_data[faction]['maxAP'] += window.getAttackApGain(d[2]).enemyAp;
 
               //window.plugin.wetterbericht.export.add(d);  // [1] collect all portals in list to filter double entries
             }
@@ -125,7 +129,7 @@ function wrapper() {
     var s = 'Der Wetterbericht für ' + window.plugin.wetterbericht.datetime() + '\n';
     var forXml = 'id,portals,resist_portals,resist_level,resist_ap,entlight_portals,entlight_level,entlight_ap' + '\n'; // PDL,5,4,1.09,7k,0,0.00,0k
     $.each(window.plugin.wetterbericht.result, function(area, area_data) {
-      var anzP = window.plugin.wetterberichtportals.city['berlin']()[area].portals.length;
+      var anzP = window.plugin.wetterberichtportals.city[window.plugin.wetterbericht.city]()[area].portals.length;
       s += '[' + area + '|' + anzP + ']:';
       forXml += area + ','+anzP;
       $.each(area_data, function(faction, value) {
@@ -152,7 +156,7 @@ function wrapper() {
     var areaValues = '';
     var areaAnzP = '&anzP=';
     $.each(window.plugin.wetterbericht.result, function(area, area_data) {
-      var anzP = window.plugin.wetterberichtportals.city['berlin']()[area].portals.length;
+      var anzP = window.plugin.wetterberichtportals.city[window.plugin.wetterbericht.city]()[area].portals.length;
       areaAnzP += anzP + ',';
       areas += area + ',';// + anzP + ',';
       areaValues += '&' + area + '=';
