@@ -12,4 +12,4 @@ Das Plugin fügt zur Toolbox (da wo wie Portal-Details stehen) dafür drei Links
 
 ## Install
 
-[portal-organizer.user.js](https://github.com/dazz/iitc-plugins/raw/master/wetterbericht/portalOrganizer/portal-organizer.user.js)
+[portal-organizer.user.js](https://github.com/erniehh/iitc-plugins/raw/master/wetterbericht/portalOrganizer/portal-organizer.user.js)
