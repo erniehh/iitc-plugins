@@ -487,6 +487,91 @@ function wrapper() {
 //      },
     };
   };
+  // city start: Hamburg
+  window.plugin.wetterberichtportals.city.hamburg = function() {
+    return {
+      'areas': [ // select area(s) you want to see
+        'PDR', 'STP', 'MIC', 'NIK', 'DTP'
+      ],
+      'STP': {
+        'portals': [
+  		'49bafd2cf1c849be967969450995d1e2.12', // Panorama - Planet.4
+			'b7e74a7e877f45eeb1f7ade8f99e8b26.12', // Turnende
+			'06bbb97d6e8c4f95b83ec59ff93a25e8.12', // Stadtpark: Planetarium im ehem
+			'02868528a747484881a8cba8ea94f575.12', // Badende
+			'474f16a2ed334219bb25d0ef78e2f3fb.12', // Opferschale
+			'964c67b4ccad43d5bfc0b77b9fc15fb4.11', // Strange Thing in Stadtpark
+			'f3e078722ac84153b03e150e9524e1a8.11', // Seelöwin Planschbecken Stadtpa
+			'b9098ca9e91d44e5bb5e2142c9de575a.11', // Strange Wipps on Stadpark
+			'0391889c3dc1441491ae17442625f6f8.12', // Im Stadtpark: Kind
+			'7e080d3eec4c451a8ffd24adc916b5ba.11', // Der Bär
+			'5002eac9192247129870569986674f90.12', // Stadtpark, Erfrischung- nicht 
+			'd2df470259a14ba6b9d0c62a6bfefe63.12', // Im Stadtpark: Frau
+			'58da3c10caa5489c8cb043adb321d963.12', // Jagende
+			'd3fc400edb0d46c1a4395745b0835da0.12', // Sommersonntag am Stadtparksee
+			'fcc1d1439f7b45e0b8067208273a2f74.11', // Braunbär im ost.- Stadtpark
+			'243035f2763f4cf8b38088f28407d3af.11', // Springbrunnen im Osten des Stadtpark's
+			'628adddd6b7c4b6a8d8c77a376bbec97.12', // Die Deichstraßenhäuser als Rel
+			'384e039dad86459788d12feb6ff43ef4.12', // Wasser-Zentaurin (?)   oder Ro
+			'ee2cefed66ec41cc8f3aaeb5880ff088.12', // Tanzende Mädchen
+			'edca2a5f64d5425c896a9bf9bd6fac82.12', // Eisbär
+			'3f82b550aacf480fad38de3ea90a0ff4.12', // Stadtpark, Landhaus Walter (Re
+			'f3395f75958548e0b2d3a366a95b0a55.12'  // "Diana mit Hunden",  Bronzepla
+	    ]
+      },
+      'PDR': {
+        'portals': [
+			'e595d7bcaed24517abc08b610e77c817.12', // Fischerbrunnen Altona
+			'67aafa5d3acd4059b3719004bd6a26bc.12', // Platz der Republik/ Altona mit
+			'429d2b1adcf048f7901238f5e2449d13.12', // Altonaer Rathaus mit Reitersta
+			'66abc0906d1647c29065dd2557ae2ab6.12', // Altona Rathaus
+			'f40722463b76480087e1f89ee1f037b5.12', // Reiterstandbild Wilhelms l. vo
+			'c135881842f24a0bb4fed1e6b79ab028.12'  // Vor dem Altonaer Rathaus, Reit
+		]             
+      },
+      'MIC': {
+        'portals': [
+			'9acc011b213041aeb7335c0929a08089.12', // St. Michaelis Kirche
+			'b6faf9e6e18640b3accf2b9669195223.12', // St. Michaelis
+			'ebb7012088164e03868d931cdaebf576.12', // Hamburger Michel
+			'f710f13e3e2144aeb2c61d8e73f03c84.12', // Michel
+			'acc8aed7f81849e7b251313234d0a40f.12', // Hamburg Michaeliskirche 1
+			'75bc6be5ad854f8fab6c994bc95e026e.12', // St. Michaelis church
+			'2f0fe10b25614abf8c88fa763aeed335.12', // St. Michael am Michel
+			'183801a208a1470b95aa979a93a1fa52.12', // St. Michaelis Kirche
+			'29dec43d761849ef873bb73ced1faf68.12'  // St. Michaelis Church - Hamburg
+		]  
+      },
+      'NIK': {
+		'portals': [
+			'f24d527f5d524f40bfe900ae7373dc6a.12', // Denkmal vor der St. Nikolai Ki
+			'107d2454bc9a48eab3e11db2d730a42f.12', // St. Nilolai
+			'e6472e55230349d7aa7e98ed9bf1d575.12', // Süd-Ostblick vom Turm der St.N
+			'13600440957f47d78969c67d98fcca7f.12', // St Nikolai
+			'9a2f18d7ae73495284695edbafb1a354.12', // Hamburg St. Nikolaiturm
+			'd10f285e73aa46a3bf3c621f43f8859b.12', // hamburg - sankt nikolaikirche 
+			'd8a779baed104692820154880b09512e.12', // Statuen berühmter Preussen am 
+			'45e0a2b1e4684c4b9ba46ceb8b302bfd.11', // Adolf III, Graf von Schauenburg
+			'bf798f93918d47458c1dd7e4f41d19af.12'  // St. Ansgar, Erzbischof von Ham
+          ]
+      },
+      'DTP': {
+		'portals': [
+			'f914c50d72954b8cab30793b912f5047.12', // Cityhafen15
+			'd5508c5f207a47a2b238885b86839cba.12', // Cityhafen05
+			'3242a370ab544723b820f94e4ce526ad.12', // Deichtorplatz
+			'b77cdeb2c43848fb97838d412448ae4d.12', // Deichtorplatz, Ballon und Meta
+			'9b7fb9e466444fbaab750f47e2aad36a.12', // Art Museum
+			'ff6190024ff1494f99b143ffe460ec47.12'  // Deichtorplatz
+		]           
+      }
+//      '': {
+//        'portals': [
+//
+//        ]
+//      },
+    };
+  };
   var setup = function(){};
   // PLUGIN END //////////////////////////////////////////////////////////
 
