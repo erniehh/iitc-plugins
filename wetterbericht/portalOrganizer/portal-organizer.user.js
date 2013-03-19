@@ -2,7 +2,7 @@
 // @id             iitc-plugin-portal-organizer@flyingmana
 // @name           iitc: portal-organizer
 // @version        0.1.0
-// @namespace      https://github.com/breunigs/ingress-intel-total-conversion
+// @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
 // @updateURL      https://github.com/dazz/iitc-plugins/raw/master/wetterbericht/portalOrganizer/portal-organizer.user.js
 // @downloadURL    https://github.com/dazz/iitc-plugins/raw/master/wetterbericht/portalOrganizer/portal-organizer.user.js
 // @description    portal-organizer
