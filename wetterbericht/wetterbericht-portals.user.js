@@ -491,7 +491,7 @@ function wrapper() {
   window.plugin.wetterberichtportals.city.hamburg = function() {
     return {
       'areas': [ // select area(s) you want to see
-        'PDR', 'STP', 'MIC', 'NIK', 'DTP','TRU'
+        'PDR', 'STP', 'MIC', 'NIK', 'DTP','TRU','FAR'
       ],
       'STP': {
         'portals': [
@@ -575,6 +575,15 @@ function wrapper() {
 		'7d75feb757304397864d6373682692b3.12', // Trude
 		'3256c41eda744ef6916f84153414ff6a.12', // HH-Barmbek, Museum der Arbeit 
 		'513f7717b27f401ea7face4b6901e855.11'  // Die Träumende / The Dreaming W
+	] 
+      },
+      'FAR': {
+      	'portals': [
+		'e8fbc6fbb2794bf1a548b2063c17e191.11', // Ev.-Luth. Kirche Farmsen
+		'11aa9190304c4e01bc42ffc9204ddf81.11', // U Bahn Farmsen
+		'440bc7f6717549bfacd7c899d1b73b55.11', // Horst Janssen Relief
+		'42d17655876249c3869f3b86bb638a67.11', // Katholische Kirche Heilig-Geis
+		'51a631bfff264de186e9c1538f55685a.11'  // Bücherhalle Farmsen
 	] 
       }
 //      '': {
