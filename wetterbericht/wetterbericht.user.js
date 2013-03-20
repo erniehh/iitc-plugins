@@ -1,10 +1,10 @@
 // ==UserScript==
 // @id             iitc-plugin-wetterbericht@dazz
 // @name           iitc: wetterbericht
-// @version        0.1.2
+// @version        0.1.3
 // @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
-// @updateURL      https://github.com/dazz/iitc-plugins/raw/master/wetterbericht/wetterbericht.user.js
-// @downloadURL    https://github.com/dazz/iitc-plugins/raw/master/wetterbericht/wetterbericht.user.js
+// @updateURL      https://github.com/erniehh/iitc-plugins/raw/master/wetterbericht/wetterbericht.user.js
+// @downloadURL    https://github.com/erniehh/iitc-plugins/raw/master/wetterbericht/wetterbericht.user.js
 // @description    wetterbericht
 // @include        *://www.ingress.com/intel*
 // @match          *://www.ingress.com/intel*
