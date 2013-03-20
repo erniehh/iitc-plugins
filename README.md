@@ -8,11 +8,11 @@ Bemerkungen am Anfang:
 ## Um Plugins für IITC zu installieren:
 
 1. Extension für UserScripts installieren, für Chrome `Tampermonkey`, für Firefox `Greasemonkey`
-2. UserScipt [ingress intel total conversion](https://github.com/jonatkins/ingress-intel-total-conversion) installieren
-3. Plugins für IITC von [IITC](https://github.com/jonatkins/ingress-intel-total-conversion/tree/gh-pages/plugins)
+2. UserScipt [ingress intel total conversion](http://iitc.jonatkins.com/) installieren
+3. Plugins für IITC installieren
 
 
-## Plugins
+## hier gehostete Plugins
 
 * [wetterbericht](https://github.com/erniehh/iitc-plugins/tree/master/wetterbericht): Der Wetterbericht für Berlin
 * [portalOwner](https://github.com/erniehh/iitc-plugins/tree/master/portalOwner): Welche Resonatoren und Portale wurden von mir bestückt
