@@ -38,6 +38,12 @@ function wrapper() {
   window.plugin.wetterbericht.portalDataLoaded = function(data) {
 
     var p = data.portals;
+    var phash = {};
+    $.each(p, function(index, d) {
+        var dpid = d[0];
+        phash[dpid] = d;
+        //window.plugin.wetterbericht.export.add(d);     // [1]collect all the portals seen on map
+    });
 
     var citydata = window.plugin.wetterberichtportals.city[window.plugin.wetterbericht.city]();
     var areas = citydata.areas;
@@ -50,8 +56,9 @@ function wrapper() {
       }
       //window.plugin.wetterbericht.export.push('area:'+area+'\n');
       $.each(citydata[area].portals, function(inde, pid) {
-        $.each(p, function(index, d) {
-          if(d[0] === pid) {
+
+            var d = phash[pid];
+            if(typeof d=='undefined') return true;
 
             if(typeof window.portals[pid] !== "undefined") {
               var params = {fillColor: 'white', fillOpacity: 10};
@@ -67,9 +74,6 @@ function wrapper() {
 
               //window.plugin.wetterbericht.export.add(d);  // [1] collect all portals in list to filter double entries
             }
-          }
-          //window.plugin.wetterbericht.export.add(d);     // [1]collect all the portals seen on map
-        });
       });
       //window.plugin.wetterbericht.export.log();         // [2] dump to console
 
