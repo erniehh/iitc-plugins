@@ -1,7 +1,7 @@
 // ==UserScript==
 // @id             iitc-plugin-wetterbericht-portals@dazz
 // @name           iitc: wetterbericht-portals
-// @version        0.1.4
+// @version        0.1.4.1
 // @namespace      https://github.com/breunigs/ingress-intel-total-conversion
 // @updateURL      https://github.com/erniehh/iitc-plugins/raw/master/wetterbericht/wetterbericht-portals.user.js
 // @downloadURL    https://github.com/erniehh/iitc-plugins/raw/master/wetterbericht/wetterbericht-portals.user.js
@@ -491,7 +491,7 @@ function wrapper() {
   window.plugin.wetterberichtportals.city.hamburg = function() {
     return {
       'areas': [ // select area(s) you want to see
-        'PDR', 'STP', 'MIC', 'NIK', 'DTP','TRU','FAR'
+        'PDR', 'STP', 'MIC', 'NIK', 'DTP','TRU','FAR','OHL'
       ],
       'STP': {
         'portals': [
@@ -516,8 +516,11 @@ function wrapper() {
 			'ee2cefed66ec41cc8f3aaeb5880ff088.12', // Tanzende Mädchen
 			'edca2a5f64d5425c896a9bf9bd6fac82.12', // Eisbär
 			'3f82b550aacf480fad38de3ea90a0ff4.12', // Stadtpark, Landhaus Walter (Re
-			'f3395f75958548e0b2d3a366a95b0a55.12'  // "Diana mit Hunden",  Bronzepla
-	    ]
+			'f3395f75958548e0b2d3a366a95b0a55.12', // "Diana mit Hunden",  Bronzepla
+			'483f28db44504658a1d8c69d27d6a389.11', // Alte Wöhr
+			'9f96bcf27dfd414cbc3e564ce724822c.11', // Sitzender Affe
+			'9bb9a7a16cb1474bbe2d3cac233fc10f.11', // Raubkatze am Stadtpark
+			'3ccd2c1437bd49d28583c68cddf8ed92.11'  // Dem Bundestrainer	    ]
       },
       'PDR': {
         'portals': [
@@ -539,7 +542,10 @@ function wrapper() {
 			'75bc6be5ad854f8fab6c994bc95e026e.12', // St. Michaelis church
 			'2f0fe10b25614abf8c88fa763aeed335.12', // St. Michael am Michel
 			'183801a208a1470b95aa979a93a1fa52.12', // St. Michaelis Kirche
-			'29dec43d761849ef873bb73ced1faf68.12'  // St. Michaelis Church - Hamburg
+			'29dec43d761849ef873bb73ced1faf68.12', // St. Michaelis Church - Hamburg
+			'1a61ccfd821640efb8710a3593f25384.11', // Spendentafeln
+			'cde807fe051341d0b0a47561a2834358.11', // Joh. Heinrich Burchard
+			'067a1c5b846a48cfa9a7efee5b08a2fa.11'  // Sonnin
 		]  
       },
       'NIK': {
@@ -552,7 +558,8 @@ function wrapper() {
 			'd10f285e73aa46a3bf3c621f43f8859b.12', // hamburg - sankt nikolaikirche 
 			'd8a779baed104692820154880b09512e.12', // Statuen berühmter Preussen am 
 			'45e0a2b1e4684c4b9ba46ceb8b302bfd.11', // Adolf III, Graf von Schauenburg
-			'bf798f93918d47458c1dd7e4f41d19af.12'  // St. Ansgar, Erzbischof von Ham
+			'bf798f93918d47458c1dd7e4f41d19af.12', // St. Ansgar, Erzbischof von Ham
+			'2f3612f3a2544416a0ecdd89bee99a10.12'  // Nikolaikirche
           ]
       },
       'DTP': {
@@ -574,8 +581,9 @@ function wrapper() {
 		'19b2c7a426764f178329038fd89f4245.12', // Barmbek: Museum der Arbeit
 		'7d75feb757304397864d6373682692b3.12', // Trude
 		'3256c41eda744ef6916f84153414ff6a.12', // HH-Barmbek, Museum der Arbeit 
-		'513f7717b27f401ea7face4b6901e855.11'  // Die Träumende / The Dreaming W
-	] 
+		'513f7717b27f401ea7face4b6901e855.11', // Die Träumende / The Dreaming W
+		'80447809d1624d3d9a09899cd9fbf783.11', // Blumenmädchen am Osterbekweg
+		'6cd3a1059a4d4c0dae8b450b2b5b7027.11'  // Graffiti on Food Truck, Flachsland	] 
       },
       'FAR': {
       	'portals': [
@@ -583,7 +591,25 @@ function wrapper() {
 		'11aa9190304c4e01bc42ffc9204ddf81.11', // U Bahn Farmsen
 		'440bc7f6717549bfacd7c899d1b73b55.11', // Horst Janssen Relief
 		'42d17655876249c3869f3b86bb638a67.11', // Katholische Kirche Heilig-Geis
-		'51a631bfff264de186e9c1538f55685a.11'  // Bücherhalle Farmsen
+		'51a631bfff264de186e9c1538f55685a.11', // Bücherhalle Farmsen
+		'e6d7a1da0b2b4b49b2769ad747ed14f0.11', // Ev. Kirchengemeinde Farmsen-Berne
+		'64ed11e50d524fe8a4769b56b2ac096c.11'  // Dach auf Wiese
+	] 
+      },
+      'OHL': {
+      	'portals': [
+		'1889afa74f8643dabb428a4aff4f108c.12', // Kindergrab
+		'd435b82f3e1749be9ec6bdb22ebca242.11', // Kapelle 9 Ohlsdorf
+		'd282f42b08e3452d99b0590b0516e6e2.11', // Grablegung Jesu
+		'48f9b9c4adec4cd5b1e44b87a6b8f780.12', // Mausoleum
+		'179c113ef4a546d49171194f9f8c0029.12', // Merciless
+		'f9ed8132e3204eeb9c044d78bec74104.11', // Hagenbeck Grab
+		'ad989d35adae430ba95b7bda67aa8a9c.11', // Ein Engel
+		'54bf7fb3f3da4b788da62ddb0b30b6c3.12', // Ohlsdorfer Friedhof: Engel auf
+		'0cbbd28f27084e20bea0b188edddbbab.11', // Weeping Angel
+		'937f70e36e244d4689746a99b135e3b0.12', // Artful Entrance Arch
+		'898affcde1f14816a72ea99e9ca7e7b4.12', // Bowed Grief
+		'adfb985dc72641fd89f7daab1dcd79b8.12'  // The Grim Last Order
 	] 
       }
 //      '': {
