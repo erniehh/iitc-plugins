@@ -520,7 +520,8 @@ function wrapper() {
 			'483f28db44504658a1d8c69d27d6a389.11', // Alte Wöhr
 			'9f96bcf27dfd414cbc3e564ce724822c.11', // Sitzender Affe
 			'9bb9a7a16cb1474bbe2d3cac233fc10f.11', // Raubkatze am Stadtpark
-			'3ccd2c1437bd49d28583c68cddf8ed92.11'  // Dem Bundestrainer	    ]
+			'3ccd2c1437bd49d28583c68cddf8ed92.11'  // Dem Bundestrainer
+			]
       },
       'PDR': {
         'portals': [
@@ -583,7 +584,8 @@ function wrapper() {
 		'3256c41eda744ef6916f84153414ff6a.12', // HH-Barmbek, Museum der Arbeit 
 		'513f7717b27f401ea7face4b6901e855.11', // Die Träumende / The Dreaming W
 		'80447809d1624d3d9a09899cd9fbf783.11', // Blumenmädchen am Osterbekweg
-		'6cd3a1059a4d4c0dae8b450b2b5b7027.11'  // Graffiti on Food Truck, Flachsland	] 
+		'6cd3a1059a4d4c0dae8b450b2b5b7027.11'  // Graffiti on Food Truck, Flachsland
+		] 
       },
       'FAR': {
       	'portals': [
