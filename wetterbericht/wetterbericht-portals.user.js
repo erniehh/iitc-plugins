@@ -1,7 +1,7 @@
 // ==UserScript==
 // @id             iitc-plugin-wetterbericht-portals@dazz
 // @name           iitc: wetterbericht-portals
-// @version        0.1.4.1
+// @version        0.1.4.2
 // @namespace      https://github.com/breunigs/ingress-intel-total-conversion
 // @updateURL      https://github.com/erniehh/iitc-plugins/raw/master/wetterbericht/wetterbericht-portals.user.js
 // @downloadURL    https://github.com/erniehh/iitc-plugins/raw/master/wetterbericht/wetterbericht-portals.user.js
@@ -520,8 +520,11 @@ function wrapper() {
 			'483f28db44504658a1d8c69d27d6a389.11', // Alte Wöhr
 			'9f96bcf27dfd414cbc3e564ce724822c.11', // Sitzender Affe
 			'9bb9a7a16cb1474bbe2d3cac233fc10f.11', // Raubkatze am Stadtpark
-			'3ccd2c1437bd49d28583c68cddf8ed92.11'  // Dem Bundestrainer
-			]
+			'3ccd2c1437bd49d28583c68cddf8ed92.11', // Dem Bundestrainer
+			'483f28db44504658a1d8c69d27d6a389.11', // Alte Wöhr
+			'4b8230c6737b4358b40dc6fbfee2a65c.16', // Warten auf Herrchen
+			'1a5acb017d214cec9be04d6cdab868e3.16'  // Steinerner Wegweiser
+		   ]
       },
       'PDR': {
         'portals': [
@@ -530,8 +533,29 @@ function wrapper() {
 			'429d2b1adcf048f7901238f5e2449d13.12', // Altonaer Rathaus mit Reitersta
 			'66abc0906d1647c29065dd2557ae2ab6.12', // Altona Rathaus
 			'f40722463b76480087e1f89ee1f037b5.12', // Reiterstandbild Wilhelms l. vo
-			'c135881842f24a0bb4fed1e6b79ab028.12'  // Vor dem Altonaer Rathaus, Reit
-		]             
+			'c135881842f24a0bb4fed1e6b79ab028.12', // Vor dem Altonaer Rathaus, Reit
+			'70111fb1a3354a7ca59363131470434f.16', // Altonaer Theater
+			'3d3bc160a04d409ab0393a2052c5d564.11'  // Altonaischer Schmuckplatz
+		   ]
+      },
+      'MBA': {
+      	'portals': [
+			'436d5d6ab3654a6f9b0f0e6c385439fe.11', // Altonaer Spar- und Bauverein
+			'4485a732f2284da4a96aaf922be20be5.11', // Gedenkstein
+			'c5ed354ca8ce44d194d134eb9e7960b7.11', // Hamburg Statue
+			'bb1c78ad5f7148f9aeced8bf0379dc86.11', // Wandskulptur
+			'43c18d7aa5764b23992b2aa614615f21.11', // Turmhaus
+			'10a67d70402b4ac4947ef6938dc6a0d3.11', // Gymnasium Allee Relief
+			'bae8a1275dcf4c1ab1dda53fe5155675.11',  // Den Nicht Heimkehrenden
+			'55766dbbb4fd4e7c82df5ed77566311c.11', // Luftmessnetz Station
+			'890aee393a8f4da3bf1bf2891c7517d8.11', // Amtsgericht Altona
+			'5b5d27dfc41142458bfd8b636e7e75b1.11', // Eckhaus
+			'a6e13cabcaa24d598e50440d10a8a54e.11', // Erbaut 1958
+			'55a590b5626543868740ee51f184c392.11', // Ehem. allg. Krankenhaus Altona
+			'b89f60aca13d4550ba8e77a97c6d9f21.11', // Kirche der Stille
+			'f017e7e2091f4762946063b57224a1f7.11', // Frauenverein Altona
+			'7709e886fe6244669698bfec31bea45e.11'  // Helenenstift			
+		   ] 
       },
       'MIC': {
         'portals': [
@@ -584,7 +608,8 @@ function wrapper() {
 		'3256c41eda744ef6916f84153414ff6a.12', // HH-Barmbek, Museum der Arbeit 
 		'513f7717b27f401ea7face4b6901e855.11', // Die Träumende / The Dreaming W
 		'80447809d1624d3d9a09899cd9fbf783.11', // Blumenmädchen am Osterbekweg
-		'6cd3a1059a4d4c0dae8b450b2b5b7027.11'  // Graffiti on Food Truck, Flachsland
+		'6cd3a1059a4d4c0dae8b450b2b5b7027.11',  // Graffiti on Food Truck, Flachsland
+		'164a5a5968ad4b4b969b6ca4b203f1fa.11'  // Hamburg auf dem Weg zur Tiefgarage
 		] 
       },
       'FAR': {
@@ -611,8 +636,33 @@ function wrapper() {
 		'0cbbd28f27084e20bea0b188edddbbab.11', // Weeping Angel
 		'937f70e36e244d4689746a99b135e3b0.12', // Artful Entrance Arch
 		'898affcde1f14816a72ea99e9ca7e7b4.12', // Bowed Grief
-		'adfb985dc72641fd89f7daab1dcd79b8.12'  // The Grim Last Order
+		'adfb985dc72641fd89f7daab1dcd79b8.12', // The Grim Last Order
+		'8450c028cd634176b6ba526d96cc1d3c.11', // Familie
+		'938ead233a7443c2a1cc1a1b85b7ad0c.11'  // DER Engel	
 	] 
+      },
+      'PuB': {
+	'portals': [
+		'2d862d91caca408192fe1046ec54956b.12', // Gute Medizin - Apothekergarten
+		'5dabffdf85a84edb8aab6e6d65998734.12', // blau erleuchteter Fernsehturm
+		'1024f011a21a4fbbaebb57dfe4fcb7b4.12', // Der Fernsehturm Hamburg vom Pl
+		'6a9040e8e7bb416ebf00f224134b1b9e.12', // Planten un Blomen, beim Apothe
+		'7113f34420304816a08cc8d8a3461057.12', // blau erleuchteter Fernsehturm
+		'f1ab5c32d628463e9aff19b36013cf40.12', // Planten un Blomen
+		'7aa547b749914c4f997b8ccfde4b76ee.12', // Planten und Blomen
+		'84a3d6a8303a4ca086b16d792e9eb205.12', // Planten un Blomen
+		'425da5a3fa1443d489e1a0664d1983a5.12', // Fernsehturm
+		'1d7912210b464b8781075a2e019ee18f.12', // Hamburg St. Pauli, Großer Spie
+		'f64cda4ccfec452e80f50fb55a7a9c14.11', // Pavillon Planten un Bloomen
+		'713911ecf9ea4ab79808e66b1a9a1dd0.11', // Teehaus
+		'1eaf626bd94d4c43b41283c7fdfec03a.12', // Hamburg - Planten un Blomen
+		'b71dec38f9354b2ba66890bfbaebe0bc.11', // Klaus Kütemeier 1939
+		'2e1a61569da64f0baf8fbb9f5c81d5fc.11', // CCH
+		'837480458c0e445b8625436b57f5a531.11', // CCC Rocket
+		'509b6c0ce7224c72907b00df7e8ee97b.11', // SAS Radisson Hotel
+		'd48a6a143cd04494be5ecae872a4e175.16', // Botanic Garden - Hamburg
+		'6d9c2effc8fc436d808a6bbbc5f054d1.12'  // Steinfigur im alten Botanische
+	]      	
       }
 //      '': {
 //        'portals': [
