@@ -3,8 +3,8 @@
 // @name           iitc: wetterbericht-portals
 // @version        0.1.4.2
 // @namespace      https://github.com/breunigs/ingress-intel-total-conversion
-// @updateURL      https://github.com/erniehh/iitc-plugins/raw/master/wetterbericht/wetterbericht-portals.user.js
-// @downloadURL    https://github.com/erniehh/iitc-plugins/raw/master/wetterbericht/wetterbericht-portals.user.js
+// @updateURL      http://ingress.ernie-hh.de/iitc/wetterbericht-portals.user.js
+// @downloadURL    http://ingress.ernie-hh.de/iitc/wetterbericht-portals.user.js
 // @description    wetterbericht-portals
 // @include        *://www.ingress.com/intel*
 // @match          *://www.ingress.com/intel*
@@ -491,7 +491,7 @@ function wrapper() {
   window.plugin.wetterberichtportals.city.hamburg = function() {
     return {
       'areas': [ // select area(s) you want to see
-        'PDR', 'STP', 'MIC', 'NIK', 'DTP','TRU','FAR','OHL'
+        'PDR', 'MBA', 'PuB', 'STP', 'MIC', 'NIK', 'DTP','TRU','FAR','OHL'
       ],
       'STP': {
         'portals': [
